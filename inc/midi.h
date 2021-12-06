@@ -9,7 +9,7 @@ typedef struct {
   uint16_t divisions;
 } MIDI_Header;
 
-#define MAXTICKS 0x10000000
+#define MAXTICKS 0x11000
 typedef struct {
   int ticks;
   int nexttick;
